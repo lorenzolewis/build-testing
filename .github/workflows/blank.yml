@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run a one-line script
-        run: |
+      - run: |
           echo ${{ github.head_ref }}
+          cat .
