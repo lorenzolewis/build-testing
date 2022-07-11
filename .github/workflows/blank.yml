@@ -13,4 +13,4 @@ jobs:
 
       - run: |
           echo ${{ github.head_ref }}
-          cat .
+          tree .
